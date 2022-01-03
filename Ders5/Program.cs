@@ -231,6 +231,7 @@ namespace Ders5
                 Console.WriteLine(c);
                 a = b;
                 b = c;
+                Console.WriteLine("Merhaba");
                 
             }
 
