@@ -272,7 +272,7 @@ namespace Ders7
             //Console.Write("Bir sayı giriniz :");
             //int sayi = int.Parse(Console.ReadLine());
 
-           
+
 
             //if (sayi % 2 == 0)
             //{
@@ -292,6 +292,10 @@ namespace Ders7
             //    }
 
             //}
+
+
+            //--------------------------------------------------------------------------------------
+
 
             //Klavyeden girilen 5 sayıdan kaçının pozitif , kaçının negatif olduğunu sayan 
             //Ayrıca  negatiflerle pozitiflerin ayrı ayrı toplamlarını alan program
