@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Ders8
 {
@@ -218,38 +219,40 @@ namespace Ders8
 
             int toplam = 0;
             int sayi;
-
-            Console.WriteLine("Sayı giriniz:");
-            string str = Console.ReadLine();
             try
             {
+                Console.Write("Sayı giriniz:");
+                string str = Console.ReadLine();
                 while (str.ToLower() != "bitir")
                 {
-                    if (int.TryParse(str, out sayi))
+                    sayi = Convert.ToInt32(str);
+                    //if (int.TryParse(str, out sayi))
                     {
-                        //tempImt = int.Parse(str);
                         toplam += sayi;
                     }
-
-                    Console.WriteLine("SAyı giriniz");
+                    Console.Write("Sayı giriniz:");
                     str = Console.ReadLine();
                 }
-
             }
-            catch (SystemException)
+            catch (FileNotFoundException)
             {
-                Console.WriteLine("Sayı formatı hatalı,işlem yapılmalı");
-                Console.WriteLine("İşlemler geri alındı");
+                Console.WriteLine("Dosya bulunamadı.");
+            }
+
+            catch (SystemException e)
+            {
+                Console.WriteLine("Sayı formatı hatalı, işlem yapılamadı!");
+                Console.WriteLine("İşlemler geri alındı!");
+                Console.WriteLine(e.Message);
+
             }
 
             finally
             {
                 if (toplam > 0)
-                {
                     Console.WriteLine("Toplam=" + toplam);
-                }
-                Console.WriteLine("Program sona erdi");
             }
+            Console.WriteLine("Program sona erdi");
 
 
 
