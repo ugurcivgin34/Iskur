@@ -217,42 +217,42 @@ namespace Ders8
             //Console.WriteLine("Toplam=" + toplam);
 
 
-            int toplam = 0;
-            int sayi;
-            try
-            {
-                Console.Write("Sayı giriniz:");
-                string str = Console.ReadLine();
-                while (str.ToLower() != "bitir")
-                {
-                    sayi = Convert.ToInt32(str);
-                    //if (int.TryParse(str, out sayi))
-                    {
-                        toplam += sayi;
-                    }
-                    Console.Write("Sayı giriniz:");
-                    str = Console.ReadLine();
-                }
-            }
-            catch (FileNotFoundException)
-            {
-                Console.WriteLine("Dosya bulunamadı.");
-            }
+            //int toplam = 0;
+            //int sayi;
+            //try
+            //{
+            //    Console.Write("Sayı giriniz:");
+            //    string str = Console.ReadLine();
+            //    while (str.ToLower() != "bitir")
+            //    {
+            //        sayi = Convert.ToInt32(str);
+            //        //if (int.TryParse(str, out sayi))
+            //        {
+            //            toplam += sayi;
+            //        }
+            //        Console.Write("Sayı giriniz:");
+            //        str = Console.ReadLine();
+            //    }
+            //}
+            //catch (FileNotFoundException)
+            //{
+            //    Console.WriteLine("Dosya bulunamadı.");
+            //}
 
-            catch (SystemException e)
-            {
-                Console.WriteLine("Sayı formatı hatalı, işlem yapılamadı!");
-                Console.WriteLine("İşlemler geri alındı!");
-                Console.WriteLine(e.Message);
+            //catch (SystemException e)
+            //{
+            //    Console.WriteLine("Sayı formatı hatalı, işlem yapılamadı!");
+            //    Console.WriteLine("İşlemler geri alındı!");
+            //    Console.WriteLine(e.Message);
 
-            }
+            //}
 
-            finally
-            {
-                if (toplam > 0)
-                    Console.WriteLine("Toplam=" + toplam);
-            }
-            Console.WriteLine("Program sona erdi");
+            //finally
+            //{
+            //    if (toplam > 0)
+            //        Console.WriteLine("Toplam=" + toplam);
+            //}
+            //Console.WriteLine("Program sona erdi");
 
 
 
