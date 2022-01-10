@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders8", "Ders8\Ders8.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders9", "Ders9\Ders9.csproj", "{6990C5D2-2AF3-4BDC-93EF-50DB581F92C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders10", "Ders10\Ders10.csproj", "{67D2E79D-420B-4D3B-B253-790D33E8DA6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders10", "Ders10\Ders10.csproj", "{67D2E79D-420B-4D3B-B253-790D33E8DA6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders11_Arrays", "Ders11_Arrays\Ders11_Arrays.csproj", "{7E8F1701-55F6-411B-B8B4-7B7A7945D819}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{67D2E79D-420B-4D3B-B253-790D33E8DA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D2E79D-420B-4D3B-B253-790D33E8DA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67D2E79D-420B-4D3B-B253-790D33E8DA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8F1701-55F6-411B-B8B4-7B7A7945D819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8F1701-55F6-411B-B8B4-7B7A7945D819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8F1701-55F6-411B-B8B4-7B7A7945D819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8F1701-55F6-411B-B8B4-7B7A7945D819}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
