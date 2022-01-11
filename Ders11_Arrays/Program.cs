@@ -260,8 +260,8 @@ namespace Ders11_Arrays
             //{
             //    Console.WriteLine(dizi2[i]);
             //}
-
-            //20 elamanlı bir array olsun.İÇine random 1 den 20 e kadar sayılar atılsın.Sayının 5 bölününce kaç kalıyorsa o kadar yıldız yazsın . 
+            //20 elamanlı bir array olsun.İçine random 1 den 20 e kadar sayılar atılsın.Sayının 5 bölününce kaç kalıyorsa o kadar yıldız yazsın.
+    
 
             int[] dizi3 = new int[20];
             Random rnd3 = new Random();
@@ -274,11 +274,6 @@ namespace Ders11_Arrays
                     Console.Write("*");
                 Console.WriteLine("");
             }
-
-
-
-
-           
         }
     }
 }
