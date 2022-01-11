@@ -100,31 +100,31 @@ namespace Ders10
             //--------------------------------------------------------------------------------------------------
             //Birden girilen sayıya kadar olan çift sayıları yazan , ve aşağıda toplamını alan program
 
-            //Console.Write("Bir sayı gir lo ");
-            //string str = Console.ReadLine();
-            //int sayi, toplam=0;
-            //int sayac = 0;
-            //bool dogruMu = int.TryParse(str, out sayi);
-            //if (!dogruMu)
-            //{
-            //    Console.WriteLine("Yanlış değer girdiniz.Lütfen sayısal değer giriniz");
-            //}
+            Console.Write("kaç yaşındasın  ");
+            string str = Console.ReadLine();
+            int sayi, toplam = 0;
+            int sayac = 0;
+            bool dogruMu = int.TryParse(str, out sayi);
+            if (!dogruMu)
+            {
+                Console.WriteLine("Yanlış değer girdiniz.Lütfen sayısal değer giriniz");
+            }
 
-            //for (int i = 1; i <= sayi; i++)
-            //{
-            //    if(i%2==0)
-            //    {
-            //        sayac = 1;
-            //        Console.WriteLine("Çift sayılar :"+ i);
-            //        toplam += i;
-            //    }
+            for (int i = 1; i <= sayi; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    sayac = 1;
+                    Console.WriteLine("Tek sayılar :" + i);
+                    toplam += i;
+                }
 
-            //}
-            //if(sayac==1)
-            //Console.WriteLine("Çift sayıların toplamı " + toplam);
+            }
+            if (sayac == 1)
+                Console.WriteLine("Çift sayıların toplamı " + toplam);
 
             //---------------------------------------------------------------------------------------------------
-            //İki sayı giriniz , hangisi küçük ise o sayıdan başlayarak büyük sayıya kadar sayıları ekrana yazan program
+            // İki sayı giriniz , hangisi küçük ise o sayıdan başlayarak büyük sayıya kadar sayıları ekrana yazan program
 
             //int sayi1, sayi2;
             //string str;
@@ -136,7 +136,7 @@ namespace Ders10
             //str = Console.ReadLine();
             //int.TryParse(str, out sayi2);
             //int kucuk, buyuk;
-            //if(sayi1 < sayi2)
+            //if (sayi1 < sayi2)
             //{
             //    kucuk = sayi1;
             //    buyuk = sayi2;
@@ -180,7 +180,7 @@ namespace Ders10
             //    Console.WriteLine("Birşeyler yazınız: ");
             //    string satir = Console.ReadLine();
 
-            //    if(satir.ToLower()=="çık")
+            //    if (satir.ToLower() == "çık")
             //    {
             //        Console.WriteLine("Girilen değerler : " + satirlar);
             //        break;
@@ -236,14 +236,20 @@ namespace Ders10
 
             //dik üçgen , uzunluk 10
 
-            for (int i = 1; i <=10; i++)
-            {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //string cizgi = "****************";
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(cizgi.Substring(0, i));
+            //}
 
 
 
