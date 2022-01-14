@@ -14,12 +14,12 @@ namespace Ders13_Metot_3_Devam
 
             PersonelEkle(tc: 67309105720, adSoyad: "Veysel Perü", adres: "SahrayıCedit/Kadıköy.", telefon: "05327741763");
             PersonelEkle(tc: 12065847520, adSoyad: "Uğur Okan Çivgin", adres: "Ümraniye/İstanbul", telefon: "05385839563");
-            PersonelEkle(tc: 25421036985, adSoyad: "Önder Özben", adres: "Esenler/İstanbul", telefon: "02545245896");
+            PersonelEkle(tc: 25421036985, adSoyad: "Semanur Mutlu", adres: "Esenler/İstanbul", telefon: "02545245896");
 
             //PersonelGüncelle(tc: 0, adSoyad: "Semanur Mutlu", adres: "SahrayıCedit/Kadıköy.", telefon: "12324643453");
             //PersonelSil(12065847520);
             Console.WriteLine();
-            Console.WriteLine(PersonelGetir());
+            Console.WriteLine(PersonelGetir(adSoyad:"Uğur Okan Çivgin"));
             //for (int i = 0; i < TCler.Count; i++)
             //{
             //    Console.WriteLine(TCler[i]);
@@ -148,7 +148,6 @@ namespace Ders13_Metot_3_Devam
             }
 
         }
-
 
         private static int PersonelIndexGetir(long tc)
         {
