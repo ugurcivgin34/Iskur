@@ -51,12 +51,12 @@ namespace Ders15_StringMethods
             Console.WriteLine(metin.EndsWith("TAŞ"));
 
             metin = "              _____FENERBAHÇE_____      ";
-            Console.WriteLine(metin.Trim('_',' ','B','H','A','Ç','E'));
+            Console.WriteLine(metin.Trim('_', ' ', 'B', 'H', 'A', 'Ç', 'E'));
 
             // sola ve sağa ifade koyulur
             metin = "Merhaba Dünya";
-            Console.WriteLine(metin.PadLeft(20,'.'));
-            Console.WriteLine(metin.PadRight(20,'.'));
+            Console.WriteLine(metin.PadLeft(20, '.'));
+            Console.WriteLine(metin.PadRight(20, '.'));
 
 
             string youtube = "https://www.youtube.com/watch?x=tbASDAsdasd";
@@ -68,7 +68,7 @@ namespace Ders15_StringMethods
             int i = 1;
             foreach (var kelime in adres)
             {
-                Console.WriteLine(i + " . kelime "+kelime);
+                Console.WriteLine(i + " . kelime " + kelime);
                 i++;
             }
 
@@ -82,22 +82,22 @@ namespace Ders15_StringMethods
             yeniCumle = yeniCumle.Remove(3, 1); //3 den başlayarak 1 karakter siliyor
             Console.WriteLine(yeniCumle);
 
-            Console.WriteLine(yeniCumle.Insert(6," 123 "));
-            Console.WriteLine(yeniCumle.Replace("ARKADAŞLAR","GENÇLER"));
+            Console.WriteLine(yeniCumle.Insert(6, " 123 "));
+            Console.WriteLine(yeniCumle.Replace("ARKADAŞLAR", "GENÇLER"));
 
-            Console.WriteLine((yeniCumle.Substring(0,8)));
+            Console.WriteLine((yeniCumle.Substring(0, 8)));
 
             TersYaz(cümle);
             Console.WriteLine();
-            int k = KelimeSay(cümle.Replace(" "," "));
-            Console.WriteLine("kelime sayısı :" +k);
-          
+            int k = KelimeSay(cümle.Replace(" ", " "));
+            Console.WriteLine("kelime sayısı :" + k);
 
-            
+
+
         }
 
         private static int KelimeSay(string cümle)
-        { 
+        {
 
             int sayac = 0;
 
@@ -105,7 +105,7 @@ namespace Ders15_StringMethods
 
             foreach (var item in dizi)
             {
-                if(item!="")
+                if (item != "")
                 {
                     sayac++;
                 }
@@ -115,12 +115,19 @@ namespace Ders15_StringMethods
 
         static void TersYaz(string cümle)
         {
-            
-            for (int i = cümle.Length-1; i >= 0; i--)
+
+            for (int i = cümle.Length - 1; i >= 0; i--)
             {
                 Console.Write(cümle[i]);
             }
+
+        }
+
+
+
+    
+
             
         }
-    }
+    
 }
