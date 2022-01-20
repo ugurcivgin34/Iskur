@@ -12,6 +12,7 @@ namespace Ders13_Metot_3_Devam
         static void Main(string[] args)
         {
 
+
             PersonelEkle(tc: 67309105720, adSoyad: "Veysel Perü", adres: "SahrayıCedit/Kadıköy.", telefon: "05327741763");
             PersonelEkle(tc: 12065847520, adSoyad: "Uğur Okan Çivgin", adres: "Ümraniye/İstanbul", telefon: "05385839563");
             PersonelEkle(tc: 25421036985, adSoyad: "Semanur Mutlu", adres: "Esenler/İstanbul", telefon: "02545245896");
