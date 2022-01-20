@@ -24,7 +24,7 @@ namespace Ders15_Harf_Tahmin
                 int c = String.Compare(tahmin, rastgeleString, true);
                 if (c == 0)
                 {
-                    Console.WriteLine("Tabrikler, " + i + " . tahminde bildiniz");
+                    Console.WriteLine("Tabrikler, " + i + " . tahminde bildi niz");
                     tutturdu = true;
                     break;
                 }
