@@ -14,6 +14,7 @@ namespace Ders15_Harf_Tahmin
             Console.WriteLine(rastgeleString);
 
             List<string> tahminler = new List<string>();
+
             bool tutturdu = false ;
 
             for (int i = 1; i <= 10; i++)
