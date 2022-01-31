@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders_21_OOP_Ornek", "Ders_21_OOP_Ornek\Ders_21_OOP_Ornek.csproj", "{B9C09CDE-9EBE-40A2-B0F4-3BFF0D2E8A2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders21_OOP_Ornek", "Ders21_OOP_Ornek\Ders21_OOP_Ornek.csproj", "{4BDB4998-963B-498A-82BE-B9A1EFCFC35C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9C09CDE-9EBE-40A2-B0F4-3BFF0D2E8A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9C09CDE-9EBE-40A2-B0F4-3BFF0D2E8A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9C09CDE-9EBE-40A2-B0F4-3BFF0D2E8A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9C09CDE-9EBE-40A2-B0F4-3BFF0D2E8A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDB4998-963B-498A-82BE-B9A1EFCFC35C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDB4998-963B-498A-82BE-B9A1EFCFC35C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDB4998-963B-498A-82BE-B9A1EFCFC35C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDB4998-963B-498A-82BE-B9A1EFCFC35C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {57C941B1-954B-48CE-A4DA-4AC5BC451D8D}
+		SolutionGuid = {D3F68577-F0D1-4306-80B5-EA716FB7A4D0}
 	EndGlobalSection
 EndGlobal
