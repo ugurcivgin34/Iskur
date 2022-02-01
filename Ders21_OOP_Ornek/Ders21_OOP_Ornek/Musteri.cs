@@ -12,14 +12,27 @@ namespace Ders21_OOP_Ornek
         public Cinsiyetler Cinsiyet { get; set; }
         public UrunSepeti MüsterininUrunSepeti { get; set; }
 
-        public void MusteriBilgilerYazdir ()
+        public void MusteriBilgilerYazdir()
         {
             Console.WriteLine("Müşteri Id:" + MusteriID + "-" +
                 MusteriAdi + " " + MusteriSoyadi);
         }
-
+        public bool MusterininDogumGunumu()
+        {
+            bool kontrol = false;
+            if (DogumTarihi.Day == DateTime.Now.Day && DogumTarihi.Month == DateTime.Now.Month)
+            {
+                kontrol = true;
+            }
+            return kontrol;
+        }
         public void MusterininSepetiniYazdir()
         {
+            if (MusterininDogumGunumu())
+            {
+                MüsterininUrunSepeti.DogumGunuHediyesiEkle();
+                Console.WriteLine("Doğum gününüz kutlu olsun.Gofret hediyeniz sepete eklendi");
+            }
             int sayac = 1;
             foreach (var item in MüsterininUrunSepeti.UrunlerListesi)
             {
@@ -27,6 +40,7 @@ namespace Ders21_OOP_Ornek
                 sayac++;
             }
         }
+
 
 
 

@@ -38,7 +38,7 @@ namespace Ders21_OOP_Ornek
                 {  // Auto Property:
                     MusteriID = 1,
                     Cinsiyet = Cinsiyetler.Erkek,
-                    DogumTarihi = new DateTime(1969, 1, 1),
+                    DogumTarihi = new DateTime(1969, 2, 1),
                     MusteriAdi = "Veysel",
                     MusteriSoyadi = "Perü"
                 };
