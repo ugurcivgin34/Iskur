@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace Ders23_Kuafor_OOP
 {
-    public class Kullanici
+    class Kullanici
     {
-        public int Id { get; set; }
-        public string adSoyad { get; set; }
+        public int ID { get; set; }
+        public string AdSoyad { get; set; }
+        public string Telefon { get; set; }
+
+        public Kuafor kuafor;
+
+        public Kullanici()
+        {
+            kuafor = new Kuafor();
+        }
 
     }
 }

@@ -6,7 +6,13 @@ namespace Ders23_Kuafor_OOP
     {
         static void Main(string[] args)
         {
-            
+            Kullanici fikri = new Kullanici();
+            fikri.AdSoyad = "Fikri Çalışkan";
+
+            fikri.kuafor.SacTrasiYap();
+            fikri.kuafor.SacYikamaYap();
+
+            fikri.kuafor.BilgiYaz();
         }
     }
 }
