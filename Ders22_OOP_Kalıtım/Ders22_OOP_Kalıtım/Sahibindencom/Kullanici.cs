@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ders22_OOP_Kalıtım.Sahibindencom
 {
-    class Kullanıcılar
+    class Kullanici
     {
         private int _ID;
         public int ID { get { return _ID; } }
-
-
         private string _AdSoyad;
         public string AdSoyad
         {
@@ -21,10 +19,10 @@ namespace Ders22_OOP_Kalıtım.Sahibindencom
                 if (!String.IsNullOrWhiteSpace(value))
                     _AdSoyad = value;
             }
-        }
 
+        }
         private string _Telefon;
-        public string Telefon 
+        public string Telefon
         {
             get { return _Telefon; }
             set
@@ -32,6 +30,7 @@ namespace Ders22_OOP_Kalıtım.Sahibindencom
                 if (!String.IsNullOrWhiteSpace(value))
                     _Telefon = value;
             }
+
         }
     }
 }
