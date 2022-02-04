@@ -46,12 +46,14 @@ namespace Ders_23_OOP_Encapsulation
 
         public void BilgiYaz()
         {
-            Console.WriteLine("Sayin " + Kullanici.AdSoyad + "\n" 
-                + "Başlama Zamanı: "+ BaslamaZamani + "\n"
+            Console.WriteLine("Sayin " + Kullanici.AdSoyad + "\n"
+                + "Başlama Zamanı: " + BaslamaZamani + "\n"
                 + "Bitiş Zamanı: " + BitisZamani + "\n"
                 + "Toplam Süre: " + Sure + "\n"
-                + "Toplam Ödemeniz Gereken Tutar: " + Ucret + "'dir"
-                );
+                + "Toplam Ödemeniz Gereken Tutar: " + Ucret + "'dir" + "\n"
+                + "Marka " + Bisiklet.Marka + "\n"
+                +""
+                ) ;
         }
     }
 }
