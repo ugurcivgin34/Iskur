@@ -31,6 +31,7 @@ namespace OOP4
         {
             //pi = 2.5;
             katsayi = 1.1;
+
         }
 
         public void Islem()
