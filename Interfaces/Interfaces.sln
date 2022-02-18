@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{057F8503-E2CE-4EDA-9358-C185CCB4A15D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{057F8503-E2CE-4EDA-9358-C185CCB4A15D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_Devam_1", "Interface_Devam_1\Interface_Devam_1.csproj", "{B31E0856-7E43-49C1-AF7A-70B4CCE1F4B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces_Devam_2", "Interfaces_Devam_2\Interfaces_Devam_2.csproj", "{7C44DE4B-49EB-491D-A2DA-D9A8436C8B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{A3674942-B4FF-46E8-992C-B1F66303C448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_Devam_3", "Interfaces_Devam_3\Interfaces_Devam_3.csproj", "{D1850E74-5B0B-423B-BCA0-DE3544A392D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_Devam_4", "Interfaces_Devam_4\Interfaces_Devam_4.csproj", "{993207AD-2D5F-4C8B-AAFC-616EEFA237E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces_Devam_5", "Interfaces_Devam_5\Interfaces_Devam_5.csproj", "{7C87F77C-F449-4893-9087-2FFF92427B8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{057F8503-E2CE-4EDA-9358-C185CCB4A15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057F8503-E2CE-4EDA-9358-C185CCB4A15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057F8503-E2CE-4EDA-9358-C185CCB4A15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31E0856-7E43-49C1-AF7A-70B4CCE1F4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31E0856-7E43-49C1-AF7A-70B4CCE1F4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31E0856-7E43-49C1-AF7A-70B4CCE1F4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31E0856-7E43-49C1-AF7A-70B4CCE1F4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C44DE4B-49EB-491D-A2DA-D9A8436C8B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C44DE4B-49EB-491D-A2DA-D9A8436C8B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C44DE4B-49EB-491D-A2DA-D9A8436C8B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C44DE4B-49EB-491D-A2DA-D9A8436C8B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3674942-B4FF-46E8-992C-B1F66303C448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3674942-B4FF-46E8-992C-B1F66303C448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3674942-B4FF-46E8-992C-B1F66303C448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3674942-B4FF-46E8-992C-B1F66303C448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1850E74-5B0B-423B-BCA0-DE3544A392D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1850E74-5B0B-423B-BCA0-DE3544A392D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1850E74-5B0B-423B-BCA0-DE3544A392D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1850E74-5B0B-423B-BCA0-DE3544A392D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993207AD-2D5F-4C8B-AAFC-616EEFA237E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993207AD-2D5F-4C8B-AAFC-616EEFA237E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993207AD-2D5F-4C8B-AAFC-616EEFA237E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993207AD-2D5F-4C8B-AAFC-616EEFA237E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C87F77C-F449-4893-9087-2FFF92427B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C87F77C-F449-4893-9087-2FFF92427B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C87F77C-F449-4893-9087-2FFF92427B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C87F77C-F449-4893-9087-2FFF92427B8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
