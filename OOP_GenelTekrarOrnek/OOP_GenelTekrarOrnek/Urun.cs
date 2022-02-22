@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,51 +6,18 @@ using System.Threading.Tasks;
 
 namespace OOP_GenelTekrarOrnek
 {
-    
-    abstract class Urun:IEnumerable
+    public abstract class Urun
     {
-        public int UrunId { get; set; }
+        public int UrunID { get; set; }
         public string UrunAdi { get; set; }
+        public decimal Fiyat { get; set; }
 
-      
-
-       
-
-        public IEnumerator GetEnumerator()
+        public override string ToString()
         {
-            return UrunId + "" + UrunAdi;
+            return $"{UrunID} {UrunAdi} {Fiyat}";
         }
-    }
-
- 
-    class Gıda:Urun
-    {
-        public DateTime SonKullanmaTarihi { get; set; }
-
-    }
-    class SutUrunleri:Gıda,IBozabilir,IKisitliTarih
-    {
-
-    }
-    class HayvanUrunleri:Gıda, IBozabilir, IKisitliTarih,IKirilabilir
-    {
 
     }
 
-    class Eşya:Urun ,IKirilabilir
-    {
-
-    }
-    interface IKirilabilir
-    {
-
-    }
-    interface IBozabilir
-    {
-
-    }
-    interface IKisitliTarih
-    {
-
-    }
+  
 }
